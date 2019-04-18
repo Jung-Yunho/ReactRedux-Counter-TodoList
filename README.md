@@ -4,7 +4,7 @@
 
 - .env: NODE_PATH 설정
 - jsconfig.json: 에디터 설정
-- package.json : NODE_PATH 설정 
+- package.json : NODE_PATH 설정 적용
 
 ### 1. 패키지 설치
 ```bash
