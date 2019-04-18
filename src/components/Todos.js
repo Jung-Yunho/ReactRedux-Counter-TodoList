@@ -32,8 +32,8 @@ const Todos = ({todos, input, onInsert, onToggle, onRemove, onKeyPress, onChange
   return (
     <div>
       <h2>Todo List</h2>
-      <input value={input} onChange={onChange}/>
-      <button onClick={onInsert} onKeyPress={onKeyPress}>추가</button>
+      <input value={input} onChange={onChange} onKeyPress={onKeyPress}/>
+      <button onClick={onInsert}>추가</button>
       <ul>
         { todoItems }
       </ul>

@@ -19,7 +19,7 @@ class TodosContainer extends Component{
     }
 
     handleKeyPress = (e) => {
-        if(e.key() === 'Enter')
+        if(e.key === 'Enter')
             this.handleInsert()
     }
 
